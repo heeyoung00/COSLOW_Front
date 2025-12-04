@@ -1,0 +1,49 @@
+  .footer_container {
+    width: 1536px;
+    height: 250px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2C6427;
+  }
+  
+  .footer_text_1 {
+    font-family: 'Montserrat-Black';
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;  
+    color: #0F3A0E;
+  }
+  .footer_text_2 {
+    font-family: 'Pretendard-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;  
+    color: #0F3A0E;
+  }
+  .footer_text_2 a{
+    color: #0F3A0E;
+    text-decoration: underline;
+  }
+  .footer_text_3{
+    font-family: 'Pretendard-Regular';
+    text-align: center;
+    font-size: 20px;
+    color: #0F3A0E;
+  }
+
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  @font-face {
+    font-family: 'Montserrat-Black';
+    src: url("./font/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }

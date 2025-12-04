@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('./font/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff; /* 전체 화면 배경색 설정 */
+}
+
+
+.Coslow-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1536px;
+  height: 940px;
+  background-color: #C9F385;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Coslow-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Coslow-header {
+  margin-top: 30px;
+  position: relative; /* z-index를 적용하기 위해 position을 relative로 설정 */
+  z-index: 2; 
+}
+
+.Coslow-header-layout {
+  width: 1218px;
+  height: 80px;
+  border-radius: 73px;
+  background: #FFFFFF;
+  margin: 0 auto; /* 가로 중앙에 배치 */
+  display: flex; /* 내부 요소 정렬을 위해 flexbox 사용 */
+  justify-content: space-between; /* 왼쪽과 오른쪽 사이의 간격 조정 */
+  align-items: center; /* 내부 요소 수직 중앙 정렬 */
+}
+
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* 오른쪽 항목들 사이의 간격 */
+  margin-right: 70px;
+}
+
+.header-logo {
+  font-family: 'Montserrat-Black';
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: #3CB502;
+}
+
+.header-challenge, .header-record, .header-mypage{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #0F3A0E;
+}
+
+.header-logout{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #BCC2C6;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 수평 중앙 정렬 */
+  justify-content: center; /* 수직 중앙 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  z-index: 2; 
+  position: relative; /* z-index를 적용하기 위해 position을 relative로 설정 */
+}
+
+.main-logo {
+  font-family: 'Montserrat-Black';
+  height: 120px;
+  /* transform: scaleY(0.9);  */
+  font-size: 146px; /* 원하는 크기로 조정 */
+  font-weight: 900;
+  color: #0F3A0E;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.main-challenge {
+  font-weight: 900;
+  height: 120px;
+  font-family: 'Montserrat-Black';
+  font-size: 146px;
+  font-weight: 900;
+  text-align: center;
+  color: #3CB502;
+}
+
+.main-contents-text {
+  font-family: 'Pretendard-Medium';
+  font-size: 24px; /* 원하는 크기로 조정 */
+  font-weight: 500;
+  max-width: 500px; /* 텍스트 영역의 최대 너비 */
+  line-height: 28.64px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.vegetable-img img{
+  width: 1513px;
+  height: 896px;
+  transform: translateY(-67.4%);
+}

@@ -1,0 +1,77 @@
+.savechallenges-container {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1536px;
+  height: 940px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Coslow-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 상단 정렬 */
+}
+
+.Coslow-header {
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.Coslow-header-layout {
+  width: 1218px;
+  height: 80px;
+  border-radius: 73px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 70px;
+}
+
+.header-logo {
+  font-family: 'Montserrat-Black';
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: #3CB502;
+}
+
+.header-challenge, .header-record, .header-mypage {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #0F3A0E;
+}
+
+.header-logout {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #BCC2C6;
+}

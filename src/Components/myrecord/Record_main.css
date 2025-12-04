@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('./font/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Record-container{
+  position: relative;
+  width: 1536px;
+  height: 940px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Record-Coslow-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Coslow-header {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.Coslow-header-layout {
+    width: 1218px;
+    height: 80px;
+    border-radius: 73px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Record-category {
+  position: relative;
+  padding-top: 50px;
+  padding-left: 100px;
+  width: 650px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 63px;
+  text-align: center;
+}
+
+.Record-category span {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  color: #CCCCCC;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Record-category span.active {
+  color: #000000;
+}
+
+.no-challenge-message {
+  position: relative;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 38px;
+  color: #CCCCCC;
+}
+
+.my-challenge-record-container{
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+  padding-left: 210px;
+}
+
+.my-challenge-options-container{
+  justify-content: stretch;
+  font-family: Pretendard-Semibold;
+  font-size: 20px;
+  width: 148px;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+}
+
+.my-challenge1 {
+  color:#3CB402;
+  cursor: pointer;
+}
+
+.my-dietrecord1{
+  color: #3D4144;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.my-challenge-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 148px;
+  height: 210px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Pretendard-SemiBold';
+  background-color: #F2F2F2;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.my-challenge-options div {
+  font-family: 'Pretendard-Medium';
+  font-size: 16px;
+  color: #3D4144;
+  padding: 10px;
+}
+
+.my-challenge-options div.active {
+  color: #3CB402;
+}
+
+.challenge-list {
+  display: flex; /* 자식 요소들을 가로로 나열 */
+  position: relative;
+  flex-wrap: wrap; /* 자식 요소들이 줄 바꿈 되도록 설정 */
+  gap: 15px; /* 박스 간의 간격 */
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  width: 960px;
+}
+
+.challenge-box {
+  position: relative; /* 상대적 위치 지정으로 하위 요소의 절대 위치 지정 가능 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 298px;
+  height: 190px;
+  border-radius: 15px;
+  background: #F2F2F2;
+}
+
+
+.challenge-title {
+  font-family: 'Pretendard-SemiBold';
+  width: 200px;
+  word-break: keep-all;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.87px;
+  text-align: left;
+  color: #0F3A0E;
+  position: absolute; /* 절대 위치로 설정 */
+  top: 30px; /* 상단 위치 조정 */
+  left: 30px; /* 왼쪽 위치 조정 */
+}
+
+.challenge-status {
+  display: flex; /* 플렉스박스 사용 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  font-size: 12px;
+  gap: 10px; /* 요소 사이의 간격을 10px로 설정 */
+  position: absolute; /* 절대 위치로 설정 */
+  bottom: 13px; /* 상자 하단에서 10px 떨어진 위치 */
+  right: 20px; /* 상자 오른쪽에서 10px 떨어진 위치 */
+}
+
+.status-recruiting-text,
+.status-days-remaining,
+.status-ongoing,
+.status-closed {
+  display: flex; /* 플렉스박스를 사용하여 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  font-size: 15px;
+  font-family: 'Pretendard-Medium';
+  color: #3F2200;
+  padding: 8px 16px;
+  border-radius: 42px; /* 둥근 모서리 */
+}
+
+.status-recruiting-text {
+  background: #FFBDD9;
+  width: 40px;
+  height: 22px;
+}
+
+.status-days-remaining {
+  background: #FFBDD9;
+  width: 40px;
+  height: 22px;
+}
+
+.status-ongoing {
+  background: #C2A5FF;
+  width: 40px;
+  height: 22px;
+}
+
+.status-closed {
+  background: #93E032;
+  width: 40px;
+  height: 22px;
+}
+
+.save-icon{
+  display: flex;
+  position: absolute; /* 절대 위치로 설정 */
+  top: 20px;
+  left: 253px;
+}
+
+.save-icon img{
+  width: 30px;
+  height: 30px;
+}

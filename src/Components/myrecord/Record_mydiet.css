@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat-Black';
+    src: url('./font/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .Diet-container{
+    position: relative;
+    width: 1536px;
+    height: 940px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+.Diet-Coslow-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  gap: 50px;
+  position: relative; /* 부모 요소에 position: relative 추가 */
+}
+
+.Coslow-header {
+  margin-top: 30px;
+  position: relative;
+}
+
+.Coslow-header-layout {
+  width: 1300px;
+  height: 80px;
+  border-radius: 73px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 80px;
+}
+
+.header-logo {
+  font-family: 'Montserrat-Black';
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: #3CB402;
+}
+
+.header-challenge, .header-record, .header-mypage {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #0F3A0E;
+}
+
+.header-logout {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #BCC2C6;
+}
+
+  .my-record-container{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 210px;
+  }
+
+  .my-challenge-options-container{
+    font-family: Pretendard-Semibold;
+    font-size: 20px;
+    width: 148px;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .my-challenge2{
+    color: #3D4144;
+    cursor: pointer;
+  }
+  
+  .my-dietrecord2{
+    color: #3CB502;
+    cursor: pointer;
+    padding-top: 20px;
+  }
+  
+  .mydiet-record-contents {
+    display: flex;
+    width: 930px;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .calendar {
+    position: relative;
+    width: 397px;
+    height: 394px;
+    border-radius: 15px;
+    border-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    padding: 2px;
+    background-color: transparent;
+    font-family: 'Pretendard-Semibold';
+  }
+  
+  .react-calendar__navigation {
+    justify-content: center;
+  }
+  
+  .react-calendar__navigation button {
+    font-family: 'Pretendard-SemiBold';
+    font-size: 18px;
+    background-color: transparent;
+  }
+  
+   /* 년/월 상단 네비게이션 칸 크기 줄이기 */
+   .react-calendar__navigation__label {
+    color: #3CB502;
+    flex-grow: 0 !important;
+  }
+  
+  .react-calendar__month-view__weekdays abbr {
+    text-decoration: none;
+  }
+  
+  .react-calendar__month-view__weekdays {
+    font-family: 'Pretendard-Medium';
+    font-size: 16px;
+    color: #BCC2C6;
+  }
+  
+  .react-calendar__month-view__days abbr{
+    font-family: 'Pretendard-Semibold';
+    font-size: 18px;
+    line-height: 40px;
+    gap: 24.06px;
+    color: #3D4144;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+  
+  .react-calendar__tile--active:enabled:focus:enabled {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+  .react-calendar__tile--now {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+  
+  .react-calendar__tile--now:enabled:focus:enabled {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+  
+  .today-challenges-container {
+    position: relative;
+    width: 452px;
+    height: 394px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Pretendard-Semibold';
+    font-size: 20px;
+    padding: 30px;
+    max-height: 394px; /* 최대 높이 설정 */
+    overflow-y: auto; /* 내용이 많으면 스크롤 생성 */
+  }
+  
+  .today-challenge {
+    background-color: #93E032;
+    width: 400px;
+    height: 50px;
+    padding: 43px 26px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .today-challenge-title {
+    font-family: Pretendard-Semibold;
+    font-size: 22px;
+    color: #0F3A0E;
+    position: absolute;
+    left: 30px;
+    width: 300px;
+    word-break: break-word; /* 자동 줄바꿈 */
+  }
+  
+  .arrow2 {
+    position: absolute;
+    right: 40px; /* 우측에서 20px 떨어진 곳에 고정 */
+  }
+  
+  .arrow2 img {
+    width: 52px;
+    height: auto;
+  }
+  
+  .my-challenge-photo {
+    position: relative;
+    width: 870px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    padding: 40px;
+  }
+  
+  .my-challenge-photo-title {
+    font-family: 'Pretendard-Semibold';
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .photo-item {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .challenge-photo-img {
+    width: 100%;
+    height: 184px;
+  }
+  
+  .challenge-photo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .photo-title {
+    font-family: 'Pretendard-Semibold';
+    font-size: 16px;
+    color: #0F3A0E;
+    margin-top: 8px; /* 추가 */
+  }
+  

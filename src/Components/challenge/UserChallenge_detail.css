@@ -1,0 +1,346 @@
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('./font/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Happiness-Sans-Bold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+/* .full-container3{
+  transform: translateY(350%);
+} */
+
+.userchallenge-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1536px;
+  height: 940px;
+  background-color: #C9F385;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Coslow-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 상단 정렬 */
+}
+
+.Coslow-header {
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.Coslow-header-layout {
+  width: 1218px;
+  height: 80px;
+  border-radius: 73px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 70px;
+}
+
+.header-logo {
+  font-family: 'Montserrat-Black';
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: #3CB502;
+}
+
+.header-challenge, .header-record, .header-mypage {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #0F3A0E;
+}
+
+.header-logout {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #BCC2C6;
+}
+
+.filter-userchallenge-container {
+  width: 100%;
+  margin-top: 85px ; /* Adjust the top margin as needed */
+  box-sizing: border-box;
+}
+
+.userchallenge-title {
+  width: 700px;
+  height: 160px;
+  margin-left: 210px; /* 오른쪽으로 이동 */
+  position: relative;
+  top: 0;
+  margin-bottom: 50px;
+}
+
+.userchallenge-title span {
+  font-family: 'Happiness-Sans-Bold';
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 80px;
+  text-align: left;
+  color: #0F3A0E;
+  width:200px
+}
+
+.userchallenge-term{
+  width: 600px;
+  height: 40px;
+  margin-left: 218px; /* 오른쪽으로 이동 */
+  position: relative;
+  margin-top: -65px;
+}
+
+
+.userchallenge-term span{
+  font-family: 'Pretendard-Medium';
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  color: #0F3A0E;
+}
+
+.userchallenge-hashTag{
+  width: 600px;
+  height: 40px;
+  margin-left: 218px; /* 오른쪽으로 이동 */
+  position: relative;
+  margin-top: 10px;
+}
+
+.userchallenge-hashTag span{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.25px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-thickness: 3px; /* 밑줄 두께 */
+}
+
+.userchallenge-term-container span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  text-align: left;
+  color: #0F3A0E;
+}
+
+.userchallenge-term-container{
+  width: 600px;
+  height: 40px;
+  margin-left: 218px; /* 오른쪽으로 이동 */
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  
+}
+
+.userchallege-term-box span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  text-align: left;  
+  color: #3CB502;
+}
+
+.custom-date-range {
+  width:250px;
+  height: 40px;
+  padding: 14px 16px 14px 16px;
+  gap: 10px;
+  border-radius: 15px;  
+  background-color: #FFFFFF;
+}
+
+/* Frequency 스타일 */
+.frequency-style {
+  width:50px;
+  height: 40px;
+  padding: 15px;
+  border-radius: 15px;  
+  background-color: #FFFFFF;
+}
+
+.userCheck-num-container{
+  width: 600px;
+  height: 40px;
+  margin-left: 218px; /* 오른쪽으로 이동 */
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.userCheck-num-container span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  text-align: left;
+  color: #0F3A0E;
+}
+
+
+.userCheck-num-box{
+  width:60px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 15px;  
+  background-color: #FFFFFF;
+  margin-top: -20px;
+}
+
+.userCheck-num-box span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  text-align: center;
+  margin-top: 6px;  
+  color: #3CB502;
+  display: flex;
+  justify-content: center;
+}
+
+.user-maxPerson-container {
+  width: 600px;
+  height: 40px;
+  margin-left: 218px; /* 오른쪽으로 이동 */
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.user-maxPerson-container span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  text-align: left;
+  color: #0F3A0E;
+}
+
+.user-maxPerson-box{
+  width:70px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 15px;  
+  background-color: #FFFFFF;
+  margin-top: -20px;
+}
+
+.user-maxPerson-box span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;  
+  color: #3CB502;
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+.userchallenge-attend-num{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.userchallenge-attend-num span{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  color: #0F3A0E;
+  margin-left: 218px;  
+}
+
+.userchallenge-attend-submit-button, .userchallenge-browse-button {
+  background-color: #3CB502;
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;  
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: 'Pretendard-Medium';
+  margin-left: 218px;  
+  text-align: center;  
+  outline: none;
+}
+
+.userchallenge-attend-submit-button:hover{
+  background-color: #49c012;
+  outline: none;
+}
+
+.userchallenge-browse-button{
+  background-color: #93E032;
+}
+
+.userchallenge-attend-submit-button:hover{
+  background-color: #44af13;
+  outline: none;
+}

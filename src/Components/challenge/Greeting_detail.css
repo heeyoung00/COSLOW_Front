@@ -1,0 +1,227 @@
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('./font/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Happiness-Sans-Bold';
+  src: url('./font/Happiness-Sans-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.full-container4{
+  transform: translateY(350%);
+}
+
+.Greeting-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1536px;
+  height: 940px;
+  background-color: #0F3A0E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Coslow-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 상단 정렬 */
+}
+
+.Coslow-header {
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.Coslow-header-layout {
+  width: 1218px;
+  height: 80px;
+  border-radius: 73px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 70px;
+}
+
+.header-logo {
+  font-family: 'Montserrat-Black';
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: #3CB502;
+}
+
+.header-challenge, .header-record, .header-mypage {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #0F3A0E;
+}
+
+.header-logout {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #BCC2C6;
+}
+
+.Greeting-title {
+  width: 800px;
+  height: 160px;
+  margin-left: 218px; /* 오른쪽으로 이동 */
+  position: relative;
+  bottom: 550px; /* 상단으로 이동 */
+}
+
+.Greeting-title span {
+  font-family: 'Happiness Sans';
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.Greeting-term {
+  width: 280px;
+  height: 29px;
+  margin-left: 10px; /* 오른쪽으로 이동 */
+  position: relative;
+  margin-top: 30px; /* 상단으로 이동 */}
+
+.Greeting-term span {
+  font-family: 'Pretendard-Medium';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.Greeting-contents-detail {
+  width: 630px;
+  height: 56px;
+  margin-left: 225px; /* 오른쪽으로 이동 */
+  position: absolute;
+  bottom: 420px; /* 상단으로 이동 */}
+
+.Greeting-contents-detail span {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.Greeting-attend-num {
+  width: 290px;
+  height: 26px;
+  margin-left: 225px; /* 오른쪽으로 이동 */
+  position: relative;
+  bottom: 200px; /* 상단으로 이동 */}
+
+.Greeting-attend-num span {
+  font-family: 'Pretendard';
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.Greeting-attend-button {
+  width: 195px;
+  height: 60px;
+  margin-top: 30px; /* 상단으로 이동 (기존 값에서 조정) */
+  padding: 18px 32px;
+  border-radius: 15px;
+  background: #3CB502;
+  margin-bottom: 80px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-family: 'Pretendard-SemiBold';
+  position: relative;
+}
+
+.Greeting-attend-button:hover {
+  background-color: #286b0a;
+}
+
+.Greeting-attend-button:focus {
+  outline: none;
+}
+
+
+
+.Greeting-img {
+  position: absolute;
+  bottom: 0; /* 하단에 위치 */
+  right: 0;  /* 오른쪽에 위치 */
+  margin: 150px; /* 하단 및 오른쪽 여백 */
+  margin-bottom: 200px;
+  margin-right: 220px;
+}
+
+.Greeting-img img {
+  width: 356px;
+  height: 356px;
+}
+
+.back-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 140px; /* 하단 및 오른쪽 여백 */
+}
+.back-img img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+
+}

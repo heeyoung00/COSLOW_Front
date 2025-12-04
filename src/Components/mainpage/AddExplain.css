@@ -1,0 +1,155 @@
+body, html {
+    justify-content: center;
+    align-items: center;
+  }
+
+.cs_addexplain_container {
+    background-color: #2C6427;
+    width: 1536px;
+    height: 1600px;
+    top: 1147px;
+    left: 1886px;
+    margin-top: 940px;
+  }
+  
+  .cs_explain_title {
+    color: #FFFFFF;
+    font-family: Montserrat-Bold;
+    font-size: 74px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .cs_explain_contents {
+    color: #FFFFFF;
+    font-family: Pretendard-Medium;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .cs_challenge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #FDFFE8;
+    border-radius: 60px;
+    width: 1136px;
+    height: 622px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+  .cs_dietlog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #FDFFE8;
+    border-radius: 60px;
+    width: 1136px;
+    height: 450px;
+    padding: 20px;
+  }
+  
+  .cs_challenge_title, .cs_dietlog_title {
+    color: #3CB502;
+    font-family: Montserrat-Bold;
+    font-size: 50px;
+    margin-top: 63px;
+    margin-left: 80px;
+  }
+  
+  .cs_challenge_contents {
+    display: flex;
+  }
+  .cs_dietlog_contents {
+    display: flex;
+  }
+
+  .addexplain_Image1{
+    margin-top: 98px;
+    margin-left: 78px;
+  }
+  .addexplain_Image2{
+    margin-top: 40px;
+    margin-left: 152px;
+  }
+  .addexplain_Image1 img{
+    width: 455px;
+    height: 317px;
+  }
+  .addexplain_Image2 img {
+    width: 306.28px;
+    height: 206px;
+  }
+
+  .cs_challenge_contentslist{
+    margin-left: 100px;
+  }
+  .cs_challenge_contents1, .cs_challenge_contents2, .cs_challenge_contents3{
+    font-family: Pretendard-Bold;
+    color: #3CB502;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .cs_challenge_detail1, .cs_challenge_detail2, .cs_challenge_detail3{
+    font-family: Pretendard-Medium;
+    color: #0F3A0E;
+    font-weight: 500px;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .cs_dietlog_contents1 {
+    font-family: Pretendard-Bold;
+    color: #3CB502;
+    font-size: 24px;
+    font-weight: 600px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 180px;
+  }
+
+  .cs_dietlog_detail1 {
+    font-family: Pretendard-Medium;
+    color: #0F3A0E;
+    font-weight: 500px;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 180px;
+  }
+
+  .cs_challenge img, .cs_dietlog img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  @font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2') format('woff2'),
+          url('https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+  }

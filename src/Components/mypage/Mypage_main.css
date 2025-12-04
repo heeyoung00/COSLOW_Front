@@ -1,0 +1,583 @@
+@font-face {
+  font-family: 'Pretendard-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('./font/Montserrat-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Happtness-Sans-Bold';
+  src: url('./font/Happtness-Sans-Bold.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Mypage-main-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1536px;
+  height: 940px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Coslow-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 상단 정렬 */
+  width: 1536px;
+  height: 940px;
+}
+
+.Coslow-header {
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.Coslow-header-layout {
+  width: 1218px;
+  height: 80px;
+  border-radius: 73px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 70px;
+}
+
+.header-logo {
+  font-family: 'Montserrat-Black';
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  color: #3CB502;
+}
+
+.header-challenge, .header-record, .header-mypage {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #0F3A0E;
+}
+
+.header-logout {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  line-height: 23.87px;
+  text-align: left;
+  cursor: pointer;
+  color: #BCC2C6;
+}
+
+.mypage-user{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-70px);
+}
+
+.mypage-user-1{
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+.mypage-profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Placeholder background color */
+}
+
+.mypage-profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mypage-user-nickname span{
+  color: #000000;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 35.8px;
+  text-align: left;  
+}
+
+.mypage-nickname-text{
+  color: #000000;
+  font-family: 'Pretendard-Medium';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: left;  
+  margin: 8px;
+  margin-top: 6px;
+}
+
+.mypage-user-email span{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #949799;  
+}
+
+.mypage-user-info{
+  display: flex;
+  flex-direction: column;
+  transform: translateY(20px);
+  gap: 8px;
+}
+
+.mypage-user-nickname{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.Mypage-user-container{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  gap: 40px;
+  
+}
+
+.mypage-coslow-container{
+  width: 559px;
+  height: 193px;
+  border-radius: 30px;  
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-img img{
+  width: 38px;
+  height: 38px;  
+}
+
+.reward-img img{
+  width: 38px;
+  height: 38px;
+}
+
+.attend-img img{
+  width: 38px;
+  height: 38px;
+}
+
+.mypage-rank-container{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mypage-reward-container{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mypage-challenge-attand-container{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-img,.reward-img{
+  transform: translateX(-1px);
+}
+
+.mypage-rank-container span{
+  transform: translateX(1px);
+}
+
+.mypage-reward-container span{
+  transform: translateX(1px);
+}
+
+.rank-text,.reward-text{
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #949799;
+  text-decoration: underline;
+  text-decoration-color: #949799; /* 밑줄 색상 변경 */
+  text-decoration-thickness: 1px; /* 밑줄 두께 변경 */
+}
+.attend-text{
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #949799;
+}
+
+.mypage-coslow-container span{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.64px;
+  text-align: left;
+  color: #3D4144;  
+}
+
+.mypage-action-container{
+  width: 559px;
+  height: 240px;
+  border-radius: 30px;
+  background: #F2F2F2;
+  border-radius: 30px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.mylike-post-container{
+  display: flex;
+  flex-direction: row;
+  gap: 280px;
+}
+
+.mysave-challenge-container{
+  display: flex;
+  flex-direction: row;
+  gap: 295px;
+}
+.mylike-post-container{
+  margin-bottom: 35px;
+}
+
+.mylike-post-contents{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.mysave-challenge-contents{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 2px;
+}
+
+.my-action-container{
+  margin-left: 50px;
+}
+
+.action-text{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.64px;
+  text-align: left;
+  color: #3D4144;
+  margin: 35px;
+  margin-left: 48px;
+}
+
+.like1-img img{
+  width: 24px;
+  height: 22.67;
+}
+
+.save1-img img{
+  width: 19px;
+  height: 24px;  
+}
+
+.mypage-action-container span{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.48px;
+  text-align: left;  
+  color: #656B6F;
+}
+
+.right-img img{
+  width: 13px;
+  height: 26px;
+}
+
+.rank1-img img{
+  width: 295px;
+  height: 323px;
+}
+.char-container {
+  margin-left: 55px;
+}
+
+.rank-character-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.rank2-img img{
+  width: 275px;
+  height: 351px;
+}
+.rank3-img img{
+  width: 292px;
+  height: 354px;
+}
+.rank4-img img{
+  width: 279px;
+  height: 341px;
+}
+.rank5-img img{
+  width: 371px;
+  height: 370px;
+}
+
+
+
+.character-text span{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;  
+  color: #000000;
+  width: 348px;
+}
+
+.percent-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.percent{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 59.67px;
+  text-align: left;  
+  color: #93E032;
+}
+
+
+
+.character-progress-bar {
+  width: 457px;      /* 진행률바의 전체 너비 */
+  height: 12px;      /* 진행률바의 전체 높이 */
+  padding: 2px;      /* 진행률바 주위에 여백 추가 */
+  position: relative;
+  box-sizing: border-box; /* 패딩을 포함한 전체 크기 계산 */
+}
+
+.progress-bar-background {
+  width: 100%;       /* 전체 진행률바의 너비 */
+  height: 100%;      /* 전체 진행률바의 높이 */
+  background-color: #DFE1E2;/* 배경 색상 */
+  border-radius: 37px; /* 모서리를 둥글게 (전체 높이의 절반으로 설정) */
+  overflow: hidden;  /* 자식 요소가 부모를 넘지 않도록 */
+}
+
+.progress-bar-fill {
+  width: 70%;        /* 진행률의 백분율 (여기서는 70%로 설정) */
+  height: 100%;      /* 배경의 높이에 맞춤 */
+  background: #93E032;
+  border-radius: 37px; /* 모서리를 둥글게 (전체 높이의 절반으로 설정) */
+  transition: width 0.3s ease; /* 진행률 변화에 애니메이션 추가 */
+}
+
+.progress-bar-text-container {
+  position: relative;
+  width: 100%;
+  height: 20px; /* 텍스트 높이 */
+}
+
+.progress-bar-start-text,
+.progress-bar-end-text {
+  position: absolute;
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  color: #949799;
+  margin-top: 5px;
+}
+
+.progress-bar-start-text {
+  left: 0;
+}
+
+.progress-bar-end-text {
+  right: 0;
+  text-align: right; /* 텍스트 오른쪽 정렬 */
+}
+
+.back-button{
+  width: 10px;
+  height: 20px;
+}
+
+.overlay{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* 충분히 높은 z-index 설정 */
+  pointer-events: auto; /* 클릭 이벤트를 수신할 수 있도록 설정 */
+}
+
+.Rankmodal{
+  outline: none;
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 600px;
+  height: 671px;
+  border-radius: 60px;
+}
+
+.rankmodal-title{
+  font-size: 25px;
+  font-family: 'Pretendard-SemiBold';
+  color: #3D4144; 
+  font-weight: 600;
+  width: 200PX;
+  margin-left: 270px;
+  transform: translateY(30px);
+}
+
+.ranking-img img{
+  width: 477px;
+  height: 570px;
+  margin: 50px;
+  margin-left: 63px;
+  transform: translateY(-15px);
+}
+
+
+.back-button img{
+  width: 13px;
+  height: 20px;
+}
+
+.back-button{
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+
+
+.ptnmodal{
+  outline: none;
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 641px;
+  height: 510px;
+  border-radius: 60px;
+}
+
+.ptn-img {
+  display: grid;
+  grid-template-columns: repeat(3,175px);
+  grid-template-rows: repeat(3,95px);
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+  margin: 58px;
+  /* transform: translateY(20px); */
+  transform: translateX(-8px);
+}
+
+.ptn-img img{
+  width: 173px;
+  height: 85px;
+}
+
+.ptn-img div{
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.ptnmodal-title{
+  font-family: 'Pretendard-SemiBold';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.64px;
+  text-align: center;
+  color: #3D4144;
+  margin-top: 40px;
+}
+
+.ptnmodal-subtitle{
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.87px;
+  text-align: center;  
+  color: #656B6F;
+  margin-top: 10px;
+  transform: translateY(20px);
+}
+
+.ptnmodal-subtitle span{
+  color: #3CB502;
+}

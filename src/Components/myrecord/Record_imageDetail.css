@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Pretendard-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat-Black';
+    src: url('./font/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Record-imageDetail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Coslow-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Coslow-header {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.Coslow-header-layout {
+    width: 1218px;
+    height: 80px;
+    border-radius: 73px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-right: 100px;
+}
+
+.header-logo {
+    font-family: 'Montserrat-Black';
+    font-size: 24px;
+    font-weight: 900;
+    text-align: left;
+    color: #3CB502;
+}
+
+.header-challenge, .header-record, .header-mypage {
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+    line-height: 23.87px;
+    text-align: left;
+    cursor: pointer;
+    color: #0F3A0E;
+}
+
+.header-logout {
+    font-family: 'Pretendard-Medium';
+    font-size: 20px;
+    line-height: 23.87px;
+    text-align: left;
+    cursor: pointer;
+    color: #BCC2C6;
+}
+
+.record-imageDetail-contents {
+    position: relative;
+    padding: 20px;
+    width: 1110px;
+    height: 940px; /* 기본 height */
+    justify-self: center;
+    align-items: center;
+}
+
+.postButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1000px;
+    width: 1130px;
+    height: 50px;
+}
+
+.arrowLeftIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.postMenu{
+    width: 35px;
+    height: 35px;
+}
+
+.arrowLeftIcon img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.postMenu img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.postContainer {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    width: 1130px;
+    gap: 30px;
+}
+
+.userPostImage {
+    width: 535px;
+    height: 530px;
+    border-radius: 15px;
+}
+
+.userPost {
+    width: 510px;
+    height: 530px;
+}
+
+.postTitle {
+    font-family: Pretendard-Semibold;
+    font-size: 24px;
+}
+.postInfo {
+    padding-top: 10px;
+    color: #3D4144;
+    font-family: Pretendard-Medium;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postWriterProfile {
+    display: flex;
+    gap: 5px;
+}
+
+.vectorLine img{
+    width: 510px;
+}
+
+.postMain {
+    padding-top: 30px;
+    width: 450px;
+    height: 365px;
+    color: #656B6F;
+    font-family: Pretendard-Medium;
+    font-size: 20px;
+    line-height: 23.87px;
+}
+
+.likeButton {
+    width : 490px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap : 5px;
+    font-family: Pretendard-Medium;
+    color : #949799;
+    overflow-y: auto;
+}
+
+.likeButton img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.ingredientInfo {
+    width: 1130px;
+    height: auto;    
+}
+
+.ingredientSubject {
+    padding-top: 50px;
+    font-family: Pretendard-Semibold;
+    color: #3D4144;
+    font-size: 32px;
+}
+
+.ingredientSubject span{
+    color: #3CB502;
+}
