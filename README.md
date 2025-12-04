@@ -16,7 +16,7 @@
 
 ### ✨ 문제점: 잘못된 식습관으로 인한 ‘가속노화’
 
-![Problem](./src/coslow_problem.png)
+![Problem](./src/coslow2.png)
 
 20·30대에서 당뇨와 고혈압 증가율이 부모 세대보다 높은 것으로 나타나면서  
 ‘가속노화’ 문제가 대두되고 있습니다.
@@ -28,7 +28,7 @@
 
 ### ✔ 식단 챌린지 기능
 
-![Feature](./src/coslow_feature.png)
+![Feature](./src/coslow3.png)
 
 COSLOW는 건강한 식습관 형성을 돕기 위해  
 **챌린지 형태의 식단 관리 기능**을 제공합니다.
