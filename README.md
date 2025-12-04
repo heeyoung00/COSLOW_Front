@@ -61,6 +61,6 @@ COSLOW는 건강한 식습관 형성을 돕기 위해
 
 ## 🚀 5. 결과물
 
-- **배포 링크**: https://coslow-n1wllud5k-no4hs-projects.vercel.app/
+- **배포 링크**: [서비스](https://coslow-n1wllud5k-no4hs-projects.vercel.app/)
 
 ---
